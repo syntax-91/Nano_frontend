@@ -1,0 +1,26 @@
+$bg: #020202;
+$color: rgba(255, 255, 255, 0.8);
+
+$primaryColor: #df2e2eb0;
+
+// bb - block background
+$bb: #0d0d0d;
+
+// eb - element background
+$eb: #1f1e1e;
+
+$borderPrimary: #181818;
+
+$hoverColor: #1b1a1a;
+$activeColor: #222121;
+
+$blockBorderColor: #211e1e;
+
+body {
+  background-color: $bg;
+  color: $color;
+}
+
+.test {
+  color: #7a7878;
+}

@@ -1,0 +1,14 @@
+/* animations */
+
+.up {
+  animation: up 0.3s ease-in-out forwards;
+}
+
+/* rotate 360 infinite */
+.r360inf {
+  animation: r360inf 0.5s linear infinite;
+}
+
+.r360inf_3 {
+  animation: r360inf 3s linear infinite;
+}

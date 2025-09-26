@@ -1,0 +1,22 @@
+@use "../../shared/style/main.scss" as g;
+
+.B1 {
+  width: 500px;
+  height: 100vh;
+  border-right: 1px solid #161616;
+}
+
+.headerB1 {
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+
+  flex-shrink: 0;
+  flex-grow: 0;
+
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  justify-content: space-between;
+  gap: 10px;
+}

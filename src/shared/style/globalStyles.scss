@@ -1,0 +1,154 @@
+@use "./main.scss" as g;
+
+.bb {
+  background-color: g.$bb;
+}
+
+.bbr {
+  border: 1px solid g.$blockBorderColor;
+}
+
+/* radius */
+
+.r10 {
+  border-radius: 10px;
+}
+
+.r15 {
+  border-radius: 15px;
+}
+
+.r20 {
+  border-radius: 20px;
+}
+
+.r25 {
+  border-radius: 25px;
+}
+
+.eb {
+  background-color: g.$eb;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.el:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.el:active {
+  opacity: 0.5;
+}
+
+.bgPrimary {
+  background-color: g.$primaryColor;
+}
+
+.borderPrimary {
+  border: 1px solid g.$primaryColor;
+  padding: 10px;
+}
+
+.tr {
+  transition: all 0.1 ease-in-out;
+}
+
+.tr3 {
+  transition: all 0.3 ease-in-out;
+}
+
+.tr5 {
+  transition: all 0.5 ease-in-out;
+}
+
+// padding's
+.p10 {
+  padding: 10px;
+}
+
+.p15 {
+  padding: 15px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.p25 {
+  padding: 25px;
+}
+
+// padding's Y
+.py10 {
+  padding: 10px 0;
+}
+
+.py15 {
+  padding: 15px 0;
+}
+
+.py20 {
+  padding: 20px 0;
+}
+
+.py25 {
+  padding: 25px 0;
+}
+
+// padding's X
+.px10 {
+  padding: 0 10px;
+}
+
+.px15 {
+  padding: 0 15px;
+}
+
+.px20 {
+  padding: 0 20px;
+}
+
+.px25 {
+  padding: 0 25px;
+}
+
+// gap's
+.gap10 {
+}
+
+//  стили для откладки
+.t {
+  background-color: #753abe;
+}
+
+.br {
+  background-color: red;
+}
+
+//
+.dangerColor {
+  color: rgb(208, 59, 59);
+}
+
+// width:fit-content - height:fit-content
+.wfc {
+  width: fit-content;
+}
+
+.hfc {
+  height: fit-content;
+}
+
+.ffc {
+  width: fit-content;
+  height: fit-content;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
